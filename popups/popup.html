@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome Extension Popup</title>
+    <script type="module" src="../scripts/content.js"></script>
+    <link rel="stylesheet" href="./popup.css">
+  </head>
+  <body>
+    <h1>What to remove?</h1>
+    <form id="checklistForm">
+      <label>
+        <input type="checkbox" name="appcache" /> Appcache
+      </label>
+      <label>
+        <input type="checkbox" name="cache" /> Cache
+      </label>
+      <label>
+        <input type="checkbox" name="cacheStorage" /> Cache Storage
+      </label>
+      <label>
+        <input type="checkbox" name="cookies" /> Cookies
+      </label>
+      <label>
+        <input type="checkbox" name="downloads" /> Downloads
+      </label>
+      <label>
+        <input type="checkbox" name="fileSystems" /> File Systems
+      </label>
+      <label>
+        <input type="checkbox" name="formData" /> Form Data
+      </label>
+      <label>
+        <input type="checkbox" name="history" /> History
+      </label>
+      <label>
+        <input type="checkbox" name="indexedDB" /> IndexedDB
+      </label>
+      <label>
+        <input type="checkbox" name="localStorage" /> Local Storage
+      </label>
+      <label>
+        <input type="checkbox" name="passwords" /> Passwords
+      </label>
+      <label>
+        <input type="checkbox" name="serviceWorkers" /> Service Workers
+      </label>
+      <label>
+        <input type="checkbox" name="webSQL" /> WebSQL
+      </label>
+      <button type="submit" id="save_button">Save</button>
+    </form>
+  </body>
+</html>
